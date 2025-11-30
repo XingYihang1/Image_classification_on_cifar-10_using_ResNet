@@ -30,7 +30,16 @@
 - **ResNet-101**: 101 层深度残差网络（使用 Bottleneck 结构，有效减少参数数量）
 - **ResNet-152**: 152 层深度残差网络（使用 Bottleneck 结构，有效减少参数数量）
 
+Bottleneck结构（下图右边）：
+
+![截屏2025-11-30 17.41.16](/Users/xingyihang/Documents/GitHub/Image_classification_on_cifar-10_using_ResNet/pictures/bottleneck结构.png)
+
+模型结构：
+
+![截屏2025-11-30 17.41.00](/Users/xingyihang/Documents/GitHub/Image_classification_on_cifar-10_using_ResNet/pictures/模型结构.png)
+
 所有模型都针对 CIFAR-10 的 32×32 图像尺寸进行了适配：
+
 - 使用 3×3 卷积核替代原始 ResNet 的 7×7 卷积
 - 移除了最大池化层
 - 使用全局平均池化层
