@@ -32,11 +32,11 @@
 
 Bottleneck结构（下图右边）：
 
-![截屏2025-11-30 17.41.16](/Users/xingyihang/Documents/GitHub/Image_classification_on_cifar-10_using_ResNet/pictures/bottleneck结构.png)
+![截屏2025-11-30 17.41.16](pictures/bottleneck结构.png)
 
 模型结构：
 
-![截屏2025-11-30 17.41.00](/Users/xingyihang/Documents/GitHub/Image_classification_on_cifar-10_using_ResNet/pictures/模型结构.png)
+![截屏2025-11-30 17.41.00](pictures/模型结构.png)
 
 所有模型都针对 CIFAR-10 的 32×32 图像尺寸进行了适配：
 
@@ -180,11 +180,11 @@ main(batch_size=128, is_test=True, is_validate=False, model_name='resnet18')
 
 #### 训练损失
 
-![compare_train_loss](/Users/xingyihang/Documents/GitHub/cifar-10/logs/train_valid/compare_train_loss.png)
+![compare_train_loss](logs/train_valid/compare_train_loss.png)
 
 #### 验证集准确率
 
-![compare_valid_acc](/Users/xingyihang/Documents/GitHub/cifar-10/logs/train_valid/compare_valid_acc.png)
+![compare_valid_acc](logs/train_valid/compare_valid_acc.png)
 
 ## 文件说明
 
@@ -212,9 +212,9 @@ main(batch_size=128, is_test=True, is_validate=False, model_name='resnet18')
 - `label`: 预测的类别标签
 将测试集预测结果提交至Kaggle竞赛，取得了0.8874的得分，可以在Leaderboard上排在32位。
 
-![截屏2025-11-30 04.47.40](/Users/xingyihang/Documents/GitHub/cifar-10/pictures/测试集结果.png)
+![截屏2025-11-30 04.47.40](pictures/测试集结果.png)
 
-![截屏2025-11-30 17.11.37](/Users/xingyihang/Documents/GitHub/cifar-10/pictures/测试集排名.png)
+![截屏2025-11-30 17.11.37](pictures/测试集排名.png)
 
 ## 注意事项
 
